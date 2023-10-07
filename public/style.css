@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #00416A;
+    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);
+    background: linear-gradient(to bottom, #E4E5E6, #00416A);
+    color: #040F16;
+    overflow: hidden;
+    overflow-y: scroll;
+}

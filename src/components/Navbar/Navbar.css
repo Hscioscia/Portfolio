@@ -1,0 +1,85 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.1); ;
+    height: 4.5rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.logo {
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+    margin: 2rem;
+}
+
+.menuItemList {
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.menuItemList:hover {
+    color: #FBFBFF;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #FBFBFF;
+}
+
+.active {
+    color: #FBFBFF;
+    padding-bottom: 0.3rem;
+    border-bottom: 3px solid #FBFBFF;
+}
+
+.bogMenu {
+    display: none;
+    object-fit: cover;
+    height: 3rem;
+}
+
+.navMenu {
+    position: absolute;
+    top: 4rem;
+    right: 1.5rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: #252525;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.itemList {
+    color: #FBFBFF;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: #202020;
+}
+
+.itemList:hover {
+    color: #FBFBFF;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #FBFBFF;
+}
+
+@media screen and (max-width:720px) {
+    .bogMenu {
+        display: flex;
+    }
+
+    .desktopMenu {
+        display: none;
+    }
+
+    .desktopMenuBtn {
+        display: none;
+    }
+}
