@@ -3,7 +3,7 @@
     width: 100vw;
     max-width: 60rem;
     margin: 0 auto;
-    padding: 4rem;
+    padding: 2rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -12,20 +12,19 @@
 }
 
 .contactDesc {
-    font-size: large;
+    font-size: 1.2rem;
     font-weight: 400;
 
 }
 
 .contactTitle {
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Neucha', cursive;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 500;
 }
 
 .form-container {
-    width: 45rem;
+    width: 100%;
+    padding: 2rem;
     height: 30rem;
     background: linear-gradient(#265c7f, #0a4970) padding-box,
     linear-gradient(145deg, transparent 28%, #8fa1ac, #40c9ff) border-box;
@@ -137,4 +136,43 @@
 .form-container .form-submit-btn:hover {
     border-color: #000000;
     border: 2px solid #000000;
+}
+
+@media screen and (max-width: 840px) {
+    .contactSection {
+        padding: 1.5rem; 
+    }
+
+    .contactTitle {
+        font-size: 1.8rem; 
+    }
+
+    .form-container {
+        margin: 0; 
+    }
+
+    .form-submit-btn {
+        width: 65%; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form-container{
+        width: 80%;
+    }
+    .contactSection {
+        padding: 1rem; 
+    }
+
+    .contactTitle {
+        font-size: 1.5rem; 
+    }
+
+    .form-container {
+        margin: 2.5rem;
+    }
+
+    .form-submit-btn {
+        width: 50%;
+    }
 }
