@@ -183,15 +183,14 @@
 
 @media screen and (max-width:480px) {
     .introContent {
-        margin-top: 25vw;
+        margin-top: 28vw;
     }
     #intro{
         height: calc(150vh - 5rem);
         margin: 0;
     }
     .scroll-down{
-        top: 28rem;
-        margin: 1.5rem;
+        display: none;
     }
     .arrow{
         display: none;
